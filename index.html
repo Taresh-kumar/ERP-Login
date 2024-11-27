@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scout Tribe
+    </title>
+    <link rel="stylesheet" type="text/css" href="slidestyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="SIGNUP">
+            <form>
+                <label for="chk" aria-hidden="true">Sign up</label>
+                
+                <!-- Dropdown for role selection -->
+                 <!-- i have usedd comments to devide them so that if there is any error in the code it can be esaily corrected-->
+                <select name="role" required="">
+                    <option value="" disabled selected>What's your role?</option>
+                    <option value="admin">Admin</option>
+                    <option value="employee">Employee</option>
+                    <option value="labour">Labour</option>
+                </select>
+
+                <input type="text" name="txt" placeholder="User name" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="Password" name="pswd" placeholder="Password" required="">
+                <button>SIGN UP</button>
+            </form>
+        </div>
+
+        <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Login</label>
+                
+                <!-- Dropdown for role selection -->
+                <select name="role" required="" class="input">
+                    <option value="" disabled selected>What's your role?</option>
+                    <option value="admin">Admin</option>
+                    <option value="employee">Employee</option>
+                    <option value="labour">Labour</option>
+                </select>
+
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="Password" name="pswd" placeholder="Password" required="">
+                <button>Login</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
